@@ -17,7 +17,7 @@ const ViewFeedbacks = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:8080/feedbacks")
+    fetch("https://project-hub2-ux8n.onrender.com/feedbacks")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch feedbacks");
