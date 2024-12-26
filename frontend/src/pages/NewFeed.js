@@ -23,7 +23,7 @@ const NewFeedback = () => {
       feedbackId: feedid, // Correct the property name
     };
 
-    fetch("http://localhost:8080/feedbacks", {
+    fetch("https://project-hub2-ux8n.onrender.com/feedbacks", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
