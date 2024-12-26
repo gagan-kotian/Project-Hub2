@@ -11,7 +11,7 @@ const Feed = () => {
 
   useEffect(() => {
     const fetchPosts = async () => {
-      const response = await axios.get(`http://localhost:8080/posts/${query}`);
+      const response = await axios.get(`https://project-hub2-ux8n.onrender.com/posts/${query}`);
       const postsWithIds = response.data.map((post, index) => ({
         ...post,
         id: index,
