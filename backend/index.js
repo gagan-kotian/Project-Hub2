@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Middleware
-app.use(cors({ origin: "http://localhost:3000" })); // Allow frontend
+app.use(cors({ origin: "https://project-hub2-8wfh.vercel.app/" })); // Allow frontend
 app.use(bodyParser.json());
 
 // MongoDB Connection
@@ -29,5 +29,5 @@ app.use("/", PostController);
 
 // Start Server
 app.listen(8080, () => {
-  console.log(`Server is running at `);
+  console.log(`Server is running at 8080`);
 });
