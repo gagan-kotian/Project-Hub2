@@ -28,6 +28,6 @@ mongoose
 app.use("/", PostController);
 
 // Start Server
-app.listen(8080, () => {
+app.listen(PORT, () => {
   console.log(`Server is running at 8080`);
 });
