@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Middleware
-app.use(cors({ origin: "https://project-hub2-ivpf.vercel.com" })); // Allow frontend
+app.use(cors({ origin: "https://project-hub2-dvaz.vercel.com" })); // Allow frontend
 app.use(bodyParser.json());
 
 // MongoDB Connection
