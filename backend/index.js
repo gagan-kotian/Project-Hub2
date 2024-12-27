@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Middleware
-app.use(cors({ origin: "https://project-hub2-11.onrender.com" })); // Allow frontend
+app.use(cors({ origin: "https://project-hub2-10.onrender.com" })); // Allow frontend
 app.use(bodyParser.json());
 
 // MongoDB Connection
