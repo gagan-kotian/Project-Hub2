@@ -19,7 +19,7 @@ const Feed = () => {
       setPosts(postsWithIds);
     };
     const fetchInitialPosts = async () => {
-      const response = await axios.get(`http://localhost:8080/allPosts`);
+      const response = await axios.get(`https://project-hub2-ux8n.onrender.com/allPosts`);
       const postsWithIds = response.data.map((post, index) => ({
         ...post,
         id: index,
